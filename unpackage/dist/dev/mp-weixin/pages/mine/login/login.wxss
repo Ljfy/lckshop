@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.uni-hd {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  background-color: #000;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(data:image/png;base64,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) no-repeat center;
+}
+.uni-input {
+  border: none;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  height: 30px;
+  border-radius: 4px;
+  padding-left: 12px;
+}
+.uni-form-item {
+  margin-top: 12px;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  color: #FFFFFF;
+  line-height: 40px;
+  border-radius: 50px;
+  box-sizing: 2px 2px 3px 5px #ddd;
+  text-align: center;
+  background-color: #354e44;
+  margin: 30px auto;
+}
+.res {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+

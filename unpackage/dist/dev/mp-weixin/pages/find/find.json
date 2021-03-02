@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "mp": "/components/mp-html/mp-html"
+  }
+}

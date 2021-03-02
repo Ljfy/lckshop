@@ -1,0 +1,8 @@
+
+page{
+	height: calc(100vh - 100rpx);
+	overflow-y: auto;
+	background: #F1ECE7;
+}
+	/*每个页面公共css */
+

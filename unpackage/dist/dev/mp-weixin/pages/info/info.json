@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "造物APP",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "mp-html": "/components/mp-html/mp-html"
+  }
+}
